@@ -1,0 +1,85 @@
+.logo {
+  height: 32px;
+  margin: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.status-card {
+  margin-bottom: 16px;
+}
+
+.ant-statistic-title {
+  font-size: 16px;
+}
+
+.good-status {
+  color: #52c41a;
+}
+
+.warning-status {
+  color: #faad14;
+}
+
+.danger-status {
+  color: #f5222d;
+}
+
+.info-status {
+  color: #1890ff;
+}
+
+.status-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.chart-container {
+  margin-top: 24px;
+  height: 300px;
+}
+
+.report-container {
+  margin-top: 16px;
+  padding: 16px;
+  background: #f5f5f5;
+  border-radius: 2px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.settings-form {
+  max-width: 600px;
+}
+
+.tag-input {
+  width: 100%;
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} 

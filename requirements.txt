@@ -1,0 +1,9 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+pydantic==1.10.8
+python-multipart==0.0.6
+requests==2.31.0
+mss==9.0.1
+pytesseract==0.3.10
+Pillow==9.5.0
+pywin32==306 
